@@ -35,6 +35,7 @@
             this.LiscenseBox = new System.Windows.Forms.Label();
             this.newCarButton = new System.Windows.Forms.Button();
             this.registryDeleteButton = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // CarList
@@ -49,38 +50,37 @@
             // 
             // typeBox
             // 
-            this.typeBox.Location = new System.Drawing.Point(465, 213);
+            this.typeBox.Location = new System.Drawing.Point(316, 168);
             this.typeBox.Name = "typeBox";
             this.typeBox.Size = new System.Drawing.Size(33, 22);
             this.typeBox.TabIndex = 1;
             // 
             // plateBox
             // 
-            this.plateBox.Location = new System.Drawing.Point(577, 213);
+            this.plateBox.Location = new System.Drawing.Point(505, 168);
             this.plateBox.Name = "plateBox";
             this.plateBox.Size = new System.Drawing.Size(100, 22);
             this.plateBox.TabIndex = 2;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(451, 147);
+            this.label1.Location = new System.Drawing.Point(235, 138);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 48);
+            this.label1.Size = new System.Drawing.Size(217, 27);
             this.label1.TabIndex = 3;
-            this.label1.Text = "0: Sedan      1: SUV      2: Van";
-
+            this.label1.Text = "0: Sedan   1: SUV   2: Van";
             // 
             // LiscenseBox
             // 
-            this.LiscenseBox.Location = new System.Drawing.Point(574, 179);
+            this.LiscenseBox.Location = new System.Drawing.Point(401, 171);
             this.LiscenseBox.Name = "LiscenseBox";
             this.LiscenseBox.Size = new System.Drawing.Size(98, 16);
             this.LiscenseBox.TabIndex = 4;
-            this.LiscenseBox.Text = "LicensePlate";
+            this.LiscenseBox.Text = "License Plate:";
             // 
             // newCarButton
             // 
-            this.newCarButton.Location = new System.Drawing.Point(474, 256);
+            this.newCarButton.Location = new System.Drawing.Point(334, 210);
             this.newCarButton.Name = "newCarButton";
             this.newCarButton.Size = new System.Drawing.Size(128, 67);
             this.newCarButton.TabIndex = 5;
@@ -90,7 +90,7 @@
             // 
             // registryDeleteButton
             // 
-            this.registryDeleteButton.Location = new System.Drawing.Point(678, 376);
+            this.registryDeleteButton.Location = new System.Drawing.Point(609, 331);
             this.registryDeleteButton.Name = "registryDeleteButton";
             this.registryDeleteButton.Size = new System.Drawing.Size(96, 54);
             this.registryDeleteButton.TabIndex = 6;
@@ -98,11 +98,22 @@
             this.registryDeleteButton.UseVisualStyleBackColor = true;
             this.registryDeleteButton.Click += new System.EventHandler(this.registryDeleteButton_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(235, 171);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(66, 16);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Car Type:";
+            // 
             // RegDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(789, 434);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(575, 314);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.registryDeleteButton);
             this.Controls.Add(this.newCarButton);
             this.Controls.Add(this.LiscenseBox);
@@ -127,5 +138,6 @@
         private System.Windows.Forms.Label LiscenseBox;
         private System.Windows.Forms.Button newCarButton;
         private System.Windows.Forms.Button registryDeleteButton;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -45,14 +45,14 @@
             // 
             // registryNameInput
             // 
-            this.registryNameInput.Location = new System.Drawing.Point(490, 128);
+            this.registryNameInput.Location = new System.Drawing.Point(345, 202);
             this.registryNameInput.Name = "registryNameInput";
             this.registryNameInput.Size = new System.Drawing.Size(100, 22);
             this.registryNameInput.TabIndex = 1;
             // 
             // registryNameButton
             // 
-            this.registryNameButton.Location = new System.Drawing.Point(596, 114);
+            this.registryNameButton.Location = new System.Drawing.Point(451, 188);
             this.registryNameButton.Name = "registryNameButton";
             this.registryNameButton.Size = new System.Drawing.Size(96, 50);
             this.registryNameButton.TabIndex = 2;
@@ -64,7 +64,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(694, 386);
             this.Controls.Add(this.registryNameButton);
             this.Controls.Add(this.registryNameInput);
             this.Controls.Add(this.RegistryList);
