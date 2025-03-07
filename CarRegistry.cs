@@ -28,6 +28,7 @@ namespace CarReservation
             Cars = new List<Car>(); // Initialize the Cars list
         }
 
+        //decrement type of car spesfied by 1 (to be done when car is removed)
         public void decrementCarType(Car.CarType carType)
         {
             if (carType == Car.CarType.Sedan)
@@ -44,7 +45,7 @@ namespace CarReservation
             }
         }
 
-
+        //Checks if there is currently less than the allowed mount of cars for the type of car being added, and adds it if otherwise
         public void AddCar(Car car)
         {   //Checks if there is currently less than the allowed mount of cars for the type of car being added
             if ((car.Type == Car.CarType.Sedan && sedanCount<maxSedanCount) || (car.Type == Car.CarType.SUV && SUVCount<maxSUVCount) ||(car.Type == Car.CarType.Van && vanCount<maxVanCount)                )
