@@ -1,0 +1,13 @@
+C:\Users\sngan\source\repos\CarReservation\CarReservation\obj\Debug\CarReservation.csproj.AssemblyReference.cache
+C:\Users\sngan\source\repos\CarReservation\CarReservation\obj\Debug\CarReservation.csproj.SuggestedBindingRedirects.cache
+C:\Users\sngan\source\repos\CarReservation\CarReservation\obj\Debug\CarReservation.Properties.Resources.resources
+C:\Users\sngan\source\repos\CarReservation\CarReservation\obj\Debug\CarReservation.csproj.GenerateResource.cache
+C:\Users\sngan\source\repos\CarReservation\CarReservation\obj\Debug\CarReservation.csproj.CoreCompileInputs.cache
+C:\Users\sngan\source\repos\CarReservation\CarReservation\bin\Debug\CarReservation.exe.config
+C:\Users\sngan\source\repos\CarReservation\CarReservation\bin\Debug\CarReservation.exe
+C:\Users\sngan\source\repos\CarReservation\CarReservation\bin\Debug\CarReservation.pdb
+C:\Users\sngan\source\repos\CarReservation\CarReservation\obj\Debug\CarReservation.exe
+C:\Users\sngan\source\repos\CarReservation\CarReservation\obj\Debug\CarReservation.pdb
+C:\Users\sngan\source\repos\CarReservation\CarReservation\obj\Debug\CarReservation.RegDisplay.resources
+C:\Users\sngan\source\repos\CarReservation\CarReservation\obj\Debug\CarReservation.CarDisplay.resources
+C:\Users\sngan\source\repos\CarReservation\CarReservation\obj\Debug\CarReservation.Home.resources
